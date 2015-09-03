@@ -13,8 +13,12 @@ cd ../arch-build
 git pull
 cd ../arch-build-ocl
 git pull
+cd ../arch-build-ocl-amd
+git pull
+cd ../arch-build-ocl-catalyst
+git pull
 cd ../arch-build-ocl-intel
 git pull
-cd ../arch-build-ocl-amd
+cd ../arch-build-ocl-nvidia
 git pull
 cd $dir
