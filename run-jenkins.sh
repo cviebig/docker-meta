@@ -1,3 +1,2 @@
 #!/bin/sh
-docker run --privileged cviebig/arch-jenkins
-
+docker run --privileged -v $(pwd)/../config-ssh:/root/config-ssh cviebig/arch-jenkins
