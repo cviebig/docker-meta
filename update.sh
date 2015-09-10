@@ -1,24 +1,35 @@
 #!/bin/sh
 dir=$(pwd)
+echo meta
 git pull
+echo arch-base
 cd ../arch-base
 git pull
+echo arch-docker
 cd ../arch-docker
 git pull
+echo scratch
 cd ../scratch
 git pull
+echo arch-jenkins
 cd ../arch-jenkins
 git pull
+echo arch-build
 cd ../arch-build
 git pull
+echo arch-build-ocl
 cd ../arch-build-ocl
 git pull
+echo arch-build-ocl-amd
 cd ../arch-build-ocl-amd
 git pull
+echo arch-build-ocl-catalyst
 cd ../arch-build-ocl-catalyst
 git pull
+echo arch-build-ocl-intel
 cd ../arch-build-ocl-intel
 git pull
+echo arch-build-ocl-nvidia
 cd ../arch-build-ocl-nvidia
 git pull
 cd $dir
